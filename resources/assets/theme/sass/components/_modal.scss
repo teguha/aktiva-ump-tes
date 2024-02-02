@@ -1,0 +1,167 @@
+//
+// Modal
+//
+
+.modal {
+    // Header
+    .modal-header {
+        align-items: center;
+
+        .modal-title {
+            font-weight: $modal-title-font-weight;
+            font-size: $modal-title-font-size;
+            color: $modal-title-color;
+
+            small {
+                font-weight: $modal-title-small-font-weight;
+                font-size: $modal-title-small-font-size;
+                color: $modal-title-small-color;
+            }
+        }
+
+        .close {
+            outline:none !important;
+            color: $modal-title-close-color;
+            transition: $transition-link;
+            padding: 0;
+            margin: 0;
+            line-height: 0;
+
+            i,
+            .ki {
+                transition: $transition-link;
+                color: $dark-75;
+                font-size: 0.8rem;
+            }
+
+            span {
+                display: none;
+            }
+
+            &:hover {
+                transition: $transition-link;
+                color: $modal-title-close-hover-color;
+
+                i,
+                .ki {
+                    transition: $transition-link;
+                    color: $primary;
+                }
+            }
+        }
+    }
+
+    // Footer
+    .modal-footer {
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+    }
+
+    // Sticky Modal
+    &.modal-sticky {
+        &.modal-sticky-bottom-right {
+            $sticky-width: 500px;
+            $sticky-width-lg: 600px;
+
+            padding: 0 !important;
+            max-width: $sticky-width;
+
+            height: auto;
+            position: fixed;
+            left: auto;
+            top: auto;
+            bottom: 25px;
+            right: 25px;
+            margin: 0;
+            box-shadow: 0px 0px 60px -15px rgba(0, 0, 0, 0.2);
+            @include border-radius($border-radius);
+
+            .modal-dialog {
+                position: static;
+                max-width: $sticky-width;
+                width: auto;
+                margin: 0;
+                @include border-radius($border-radius);
+
+                .modal-content {
+                    border: 0;
+                    @include border-radius($border-radius);
+                }
+            }
+
+            &.modal-sticky-lg {
+                max-width: $sticky-width-lg;
+
+                .modal-dialog {
+                    max-width: $sticky-width-lg;
+                }
+            }
+
+            // Tablet & Mobile Modess
+            @include media-breakpoint-down(md) {
+                bottom: 10px;
+                right: 10px;
+            }
+
+            // Mobile mode
+            @include media-breakpoint-down(sm) {
+                max-width: 90%;
+            }
+        }
+    }
+
+    .modal-loader {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #7b272700;
+        z-index: 2100;
+
+        .spinner {
+            position: relative;
+            top: calc(50% - 12.5px);
+            left: calc(50% - 12.5px);
+        }
+    }
+
+    .modal-content {
+        min-height: 60px;
+    }
+    .modal-confirm {
+        width: 420px;
+    }
+
+    .modal-dialog-centered {
+        &.modal-dialog-right-bottom {
+            margin-right: 20px;
+
+            .modal-content {
+                align-self: flex-end;
+            }
+        }
+
+        &.modal-dialog-right-top {
+            margin-right: 20px;
+            
+            .modal-content {
+                align-self: flex-start;
+            }
+        }
+    }
+
+}
+
+// Open state
+.modal-open {
+    overflow: auto !important;
+    padding: 0 !important;
+}
+
+// Responsive breakpoints
+@include media-breakpoint-up(xl) {
+    .modal-dialog.modal-xl {
+        max-width: map-get($grid-breakpoints, xl) - 100px;
+    }
+}

@@ -1,0 +1,61 @@
+@extends('layouts.pageSubmit')
+
+@if ($page_action == "create")
+    @section('action', route($routes.'.store'))
+@elseif ($page_action == "edit")
+    @section('action', route($routes.'.update', $record->id))
+@endif
+
+@section('card-body')
+    @section('page-content')
+    @if ($page_action == "edit")
+        @method('PUT')
+    @endif
+    <!-- header -->
+    <div class="row mb-3">
+        <div class="col-sm-12">
+            <div class="card card-custom">
+                @section('card-header')
+                    <div class="card-header">
+                        <h3 class="card-title">@yield('card-title', $title)</h3>
+                        <div class="card-toolbar">
+                            @section('card-toolbar')
+                                @include('layouts.forms.btnBackTop')
+                            @show
+                        </div>
+                    </div>
+                @show
+                <div class="card-body">
+                    @csrf
+                    @include('master.jurnal.template.subs.card-1')           
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Jurnal Entry -->
+    <div class="row mb-3">
+        <div class="col-sm-12">
+            <div class="card card-custom">
+                <div class="card-header">
+                        <h3 class="card-title">Journal Entry</h3>
+                    </div>
+                <div class="card-body">
+                    <div class="mb-6">
+                        @include('master.jurnal.template.subs.entry-table')
+                    </div>   
+                           
+                </div>
+                <div class="card-footer">
+                    <div class="d-flex justify-content-between">
+                        @include('layouts.forms.btnBack')    
+                        @if (in_array($page_action, ["edit", "create"]))
+                            @include('layouts.forms.btnSubmitPage')
+                        @endif
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+@show
+@endsection

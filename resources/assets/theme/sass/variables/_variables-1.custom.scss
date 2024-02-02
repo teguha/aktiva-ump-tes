@@ -1,0 +1,112 @@
+//
+// For custom all variable use this file;
+// Override Variables
+//
+
+// 
+// Override Variables Bootstrap & component
+// 
+
+//
+// Color system
+//
+
+// Black color
+$black:    											#000000 !default;
+
+// White color
+$white:    											#ffffff !default;
+
+// Gray colors
+$gray-100: 											#F3F6F9 !default;
+$gray-200: 											#EBEDF3 !default;
+$gray-300: 											#E4E6EF !default;
+$gray-400: 											#D1D3E0 !default;
+$gray-500: 											#B5B5C3 !default;
+$gray-600: 											#7E8299 !default;
+$gray-700: 											#5E6278 !default;
+$gray-800: 											#3F4254 !default;
+$gray-900: 											#181C32 !default;
+
+// Dark colors
+$dark:          									$gray-900 !default;
+$dark-75:          									$gray-800 !default;
+$dark-65:          									$gray-700 !default;
+$dark-50:          									$gray-600 !default;
+$dark-25:          									$gray-400 !default;
+
+// Text muted
+$text-muted:                  						$gray-500 !default;
+
+$app:                                               #012756 !default;
+$app-hover:                                         #022446 !default;
+$app-light:                                         #b9d4ef !default;
+$app-inverse:                                       #FFFFFF !default;
+
+$primary:       									#3699FF !default;
+$primary-hover:    									#187DE4 !default;
+$primary-light:    									#E1F0FF !default;
+$primary-inverse:  									#FFFFFF !default;
+
+$success:       									#28C76F !default;
+$success-hover:    									#1cbf64 !default;
+$success-light:    									#D4FDE6 !default;
+$success-inverse:  									#FFFFFF !default;
+
+// Forms
+$form-group-margin-bottom:                          1rem !default;
+
+// Card
+$card-spacer-y:                     				1.5rem !default;
+$card-spacer-x:                    					1.75rem !default;
+
+// Modals
+// Padding applied to the modal body
+$modal-inner-padding:              					1.5rem !default;
+
+$input-disabled-bg:                     			$gray-100 !default;
+$input-readonly-bg:                     			$gray-100 !default;
+
+// Define common padding and border radius sizes and more.
+$line-height-xl:									1.8 !default;
+$line-height-lg:              						1.5 !default;
+$line-height-sm:              						1.35 !default;
+
+// 
+// Override Variables Layout
+// 
+
+// Root Font Sizes
+$root-font-size:                                    13px !default; // Root font size for desktop mode
+$root-font-size-lg:                             	13px !default; // Root font size for tablet mode
+$root-font-size-md:                             	12px !default; // Root font size for mobile mode
+
+// Layout Theme Colors
+$theme-dark: $app !default;
+$theme-dark-hover: $app-hover !default;
+$theme-light: $white !default;
+$theme-light-hover: $app-light !default;
+
+// Header
+$header-dark-bg: $theme-dark !default;
+$header-dark-bg-hover: $theme-dark-hover !default;
+$header-light-bg: $theme-light !default;
+$header-light-bg-hover: $theme-light-hover !default;
+$header-height-desktop: 55px !default;
+$header-height-mobile: 50px !default;
+
+// Aside
+$aside-dark-bg: $theme-dark !default;
+$aside-dark-bg-hover: $theme-dark-hover !default;
+$aside-light-bg: $theme-light !default;
+$aside-light-bg-hover: $theme-light-hover !default;
+$aside-width: 245px !default;
+$aside-minimized-width: 70px !default;
+$aside-offcanvas-width: 265px !default;
+
+// Subheader
+$subheader-height-desktop: 45px !default;
+$subheader-height-mobile: 45px !default;
+
+// Footer
+$footer-height-desktop: 45 !default;

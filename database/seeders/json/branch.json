@@ -1,0 +1,137 @@
+[
+    [
+        { "name": "Distro Kramat Raya" },
+        { "name": "Distro Poin Square" },
+        { "name": "Distro Kebayoran Baru" },
+        { "name": "Distro Kalibata City" },
+        { "name": "Distro Tanjung Priok" },
+        { "name": "Distro Karang Tengah" },
+        { "name": "Distro Tanjung Duren" },
+        { "name": "J Store Thamrin City" },
+        { "name": "Distro Jatinegara" },
+        { "name": "J Store Kementerian BUMN" },
+        { "name": "Distro Senen" },
+        { "name": "J Store Sentra BRI" }
+    ],
+    [
+        { "name": "Distro Banda Aceh" },
+        { "name": "Distro Batam" },
+        { "name": "Distro Medan Utama" },
+        { "name": "Distro Terandam" },
+        { "name": "Distro Bukit Tinggi" },
+        { "name": "Distro Pekanbaru Kota" },
+        { "name": "Distro Pematang Siantar" },
+        { "name": "J Store Lhokseumawe" },
+        { "name": "Distro Simpang Limun" }
+    ],
+
+    [
+        { "name": "Distro Kedaton" },
+        { "name": "Distro Teluk Betung" },
+        { "name": "Distro Palembang" },
+        { "name": "Distro Mayang Mangurai" },
+        { "name": "Distro The Gade Palembang" },
+        { "name": "Distro Metro" },
+        { "name": "Distro Baturaja" },
+        { "name": "Distro Jambi" },
+        { "name": "J Store Oppi Mall" },
+        { "name": "Distro Lubuk Linggau" }
+    ],
+
+    [
+        { "name": "Distro Tangerang" },
+        { "name": "Distro Serang" },
+        { "name": "Distro Bintaro SJ" },
+        { "name": "Distro Cengkareng" },
+        { "name": "Distro Karang Tengah" }
+    ],
+
+    [
+        { "name": "J Store Pos Bogor" },
+        { "name": "Distro Bekasi" },
+        { "name": "Distro Karawang" },
+        { "name": "Distro Cikarang" },
+        { "name": "Distro Bogor" },
+        { "name": "Distro Depok" },
+        { "name": "Distro Kota Wisata" },
+        { "name": "Distro Metro Boulevard" }
+    ],
+    [
+        { "name": "Distro Cikudapateuh" },
+        { "name": "Distro Cimahi" },
+        { "name": "Distro Ujungberung" },
+        { "name": "Distro Pungkur" },
+        { "name": "Distro Indramayu" },
+        { "name": "Distro Cirebon" },
+        { "name": "Distro Tasikmalaya" },
+        { "name": "Distro Garut" },
+        { "name": "Distro Purwakarta" },
+        { "name": "J Store Banda Aceh" },
+        { "name": "Distro Kuningan" }
+    ],
+
+    [
+        { "name": "Distro Purwokerto" },
+        { "name": "Distro Depok Semarang" },
+        { "name": "Distro Cokrokenegaraan" },
+        { "name": "Distro Tegal" },
+        { "name": "Distro Tugukulon" },
+        { "name": "Distro Sragen" },
+        { "name": "Distro Kudus" },
+        { "name": "Distro Blora" },
+        { "name": "Distro Kartasura" }
+    ],
+
+    [
+        { "name": "Distro Tegal Boto" },
+        { "name": "Distro Malang" },
+        { "name": "Distro Malang Town Square" },
+        { "name": "Distro Pamekasan" },
+        { "name": "Distro Blimbing" },
+        { "name": "Distro Dinoyo Tangsi" },
+        { "name": "Distro Madiun" },
+        { "name": "Distro Kediri" },
+        { "name": "Distro Probolinggo" },
+        { "name": "Distro Banyuwangi" },
+        { "name": "Distro Blitar" },
+        { "name": "Distro Mojokerto" }
+    ],
+
+    [
+        { "name": "Distro Mataram" },
+        { "name": "Distro Denpasar" },
+        { "name": "Distro Bima" },
+        { "name": "Distro Ende" },
+        { "name": "Distro Kupang" },
+        { "name": "Distro Singaraja" },
+        { "name": "Distro Praya" },
+        { "name": "Distro Sweta" }
+    ],
+    [
+        { "name": "Distro Balikpapan" },
+        { "name": "Distro Banjarmasin" },
+        { "name": "Distro Palangkaraya" },
+        { "name": "Distro Pontianak" },
+        { "name": "Distro Samarinda" },
+        { "name": "Distro Tarakan" },
+        { "name": "Distro Bontang" }
+    ],
+    [
+        { "name": "Distro Ambon" },
+        { "name": "Distro Kendari" },
+        { "name": "Distro Makassar" },
+        { "name": "Distro Pare-pare" },
+        { "name": "Distro Palopo" },
+        { "name": "Distro Bantaeng" },
+        { "name": "Distro Daya" }
+    ],
+    [
+        { "name": "Distro Gorontalo" },
+        { "name": "Distro Manado Utara" },
+        { "name": "Distro Palu" },
+        { "name": "Distro Sorong" },
+        { "name": "Distro Jayapura" },
+        { "name": "Distro Bitung" },
+        { "name": "Distro Tomohon" }
+    ]
+]

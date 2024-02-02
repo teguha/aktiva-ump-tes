@@ -1,0 +1,11 @@
+{
+    "/assets/js/plugins.bundle.js": "/assets/js/plugins.bundle.js",
+    "/assets/js/theme.bundle.js": "/assets/js/theme.bundle.js",
+    "/assets/js/base.bundle.js": "/assets/js/base.bundle.js",
+    "/assets/js/modules.bundle.js": "/assets/js/modules.bundle.js",
+    "/assets/css/plugins.bundle.css": "/assets/css/plugins.bundle.css",
+    "/assets/css/theme.skins.bundle.css": "/assets/css/theme.skins.bundle.css",
+    "/assets/css/theme.bundle.css": "/assets/css/theme.bundle.css",
+    "/assets/css/base.bundle.css": "/assets/css/base.bundle.css",
+    "/assets/css/modules.bundle.css": "/assets/css/modules.bundle.css"
+}

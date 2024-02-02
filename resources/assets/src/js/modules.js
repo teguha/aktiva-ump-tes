@@ -1,0 +1,1 @@
+window.ModuleApp = require('./modules/ModuleApp.js');

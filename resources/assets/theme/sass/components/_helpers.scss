@@ -1,0 +1,163 @@
+/* Helper Row Space */
+
+/* Helper Float */
+.pull-left { float: left !important; }
+.pull-right { float: right !important; }
+.pull-none { float: none !important; }
+
+/* Helper Vertical Align */
+.valign-middle { vertical-align: middle !important; }
+.valign-top { vertical-align: top !important; }
+.valign-bottom { vertical-align: bottom !important; }
+
+/* Helper Text */
+.text-bold {
+  font-weight: 600 !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.text-left {
+  text-align: left !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.text-justify {
+  text-align: justify !important;
+}
+@each $name, $color in $theme-colors {
+  .text-#{$name} {
+    color: $color !important;
+  }
+}
+
+/* Helper Width */
+.width-full {
+	width: 100% !important;
+}
+.width-half {
+	width: 50% !important;
+}
+@for $i from 0 through 40 {
+	$classInt: $i * 5;
+	
+	.width-#{$classInt}px {
+		width: #{$classInt}px !important;
+	}
+}
+@for $i from 2 through 20 {
+	$classInt: $i * 50;
+	
+	.width-#{$classInt}px {
+		width: #{$classInt}px !important;
+	}
+}
+
+/* Helper Height */
+.height-full {
+	height: 100% !important;
+}
+.height-half {
+	height: 50% !important;
+}
+@for $i from 0 through 40 {
+	$classInt: $i * 5;
+	
+	.height-#{$classInt}px {
+		height: #{$classInt}px !important;
+	}
+}
+@for $i from 2 through 20 {
+	$classInt: $i * 50;
+	
+	.height-#{$classInt}px {
+		height: #{$classInt}px !important;
+	}
+}
+
+/* Helper Font Size */
+@for $i from 8 through 32 {
+	.font-size-#{$i}px {
+		font-size: #{$i}px !important;
+	}
+}
+
+/* Helper Opacity */
+@for $i from 0 through 10 {
+	.opacity-#{$i} {
+		opacity: ($i / 10) !important;
+	}
+}
+
+/* Helper Box Shadow */
+.with-shadow { box-shadow: 0 2px 40px 0 rgba($black, 0.1) !important; }
+
+/* Helper Display */
+.hide { display: none !important; }
+
+/* Helper Image */
+.img-responsive { display: block; max-width: 100%; height: auto; }
+.img-rounded { border-radius: 0.375rem; }
+.img-circle { border-radius: 50%; }
+
+/* Helper Vertical Align */
+.valign-top { vertical-align: top !important; }
+.valign-bottom { vertical-align: bottom !important; }
+.valign-middle { vertical-align: middle !important; }
+
+/* Helper Float */
+.pull-left {
+	float: left !important;
+}
+.pull-right {
+	float: right !important;
+}
+
+/* Helper Margin */
+.m-auto {
+	margin: auto !important;
+}
+@for $i from 0 through 20 {
+	$classInt: $i * 5;
+	
+	.m-#{$classInt}px {
+		margin: #{$classInt}px !important;
+	}
+	.ml-#{$classInt}px {
+		margin-left: #{$classInt}px !important;
+	}
+	.mr-#{$classInt}px {
+		margin-right: #{$classInt}px !important;
+	}
+	.mt-#{$classInt}px {
+		margin-top: #{$classInt}px !important;
+	}
+	.mb-#{$classInt}px {
+		margin-bottom: #{$classInt}px !important;
+	}
+}
+
+/* Helper Padding */
+.p-auto {
+	padding: auto !important;
+}
+@for $i from 0 through 20 {
+	$classInt: $i * 5;
+	
+	.p-#{$classInt}px {
+		padding: #{$classInt}px !important;
+	}
+	.pl-#{$classInt}px {
+		padding-left: #{$classInt}px !important;
+	}
+	.pr-#{$classInt}px {
+		padding-right: #{$classInt}px !important;
+	}
+	.pt-#{$classInt}px {
+		padding-top: #{$classInt}px !important;
+	}
+	.pb-#{$classInt}px {
+		padding-bottom: #{$classInt}px !important;
+	}
+}

@@ -1,0 +1,274 @@
+[
+  {
+    "id": "11",
+    "name": "ACEH",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "12",
+    "name": "SUMATERA UTARA",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "13",
+    "name": "SUMATERA BARAT",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "14",
+    "name": "RIAU",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "15",
+    "name": "JAMBI",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "16",
+    "name": "SUMATERA SELATAN",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "17",
+    "name": "BENGKULU",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "18",
+    "name": "LAMPUNG",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "19",
+    "name": "KEPULAUAN BANGKA BELITUNG",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "21",
+    "name": "KEPULAUAN RIAU",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "31",
+    "name": "DKI JAKARTA",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "32",
+    "name": "JAWA BARAT",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "33",
+    "name": "JAWA TENGAH",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "34",
+    "name": "DAERAH ISTIMEWA YOGYAKARTA",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "35",
+    "name": "JAWA TIMUR",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "36",
+    "name": "BANTEN",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "51",
+    "name": "BALI",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "52",
+    "name": "NUSA TENGGARA BARAT",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "53",
+    "name": "NUSA TENGGARA TIMUR",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "61",
+    "name": "KALIMANTAN BARAT",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "62",
+    "name": "KALIMANTAN TENGAH",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "63",
+    "name": "KALIMANTAN SELATAN",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "64",
+    "name": "KALIMANTAN TIMUR",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "65",
+    "name": "KALIMANTAN UTARA",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "71",
+    "name": "SULAWESI UTARA",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "72",
+    "name": "SULAWESI TENGAH",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "73",
+    "name": "SULAWESI SELATAN",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "74",
+    "name": "SULAWESI TENGGARA",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "75",
+    "name": "GORONTALO",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "76",
+    "name": "SULAWESI BARAT",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "81",
+    "name": "MALUKU",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "82",
+    "name": "MALUKU UTARA",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "91",
+    "name": "PAPUA",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+},
+{
+    "id": "92",
+    "name": "PAPUA BARAT",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "",
+    "updated_at": ""
+}
+]

@@ -1,0 +1,57 @@
+//
+// Main Style
+//
+
+
+////////////////////////////////////////////////////////////////
+///////////// DO NOT MODIFY BELOW INCLUDE ORDER ////////////////
+////////////////////////////////////////////////////////////////
+
+// 1: Initialize
+@import "init";
+
+// 3: Header Base Skins (*Chose One)
+@import "skins/header/base/light";
+// @import "skins/header/base/dark";
+
+// 4: Header Menu Skins (*Chose One)
+@import "skins/header/menu/light";
+// @import "skins/header/menu/dark";
+
+// 5: Brand Skins (*Chose One)
+@import "skins/brand/light";
+// @import "skins/brand/dark";
+
+// 6: Aside Skins (*Chose One)
+@import "skins/aside/light";
+// @import "skins/aside/dark";
+@import "skins/aside/custom-light";
+// @import "skins/aside/custom-dark";
+
+// 7: Wizard (Optional)
+@import "skins/wizard/wizard-1";
+@import "skins/wizard/wizard-2";
+@import "skins/wizard/wizard-3";
+@import "skins/wizard/wizard-4";
+@import "skins/wizard/wizard-5";
+@import "skins/wizard/wizard-6";
+
+// 8: Pages (Optional)
+@import "skins/pages/error-3";
+// @import "skins/pages/error-4";
+// @import "skins/pages/error-5";
+// @import "skins/pages/error-6";
+// @import "skins/pages/login-1";
+// @import "skins/pages/login-2";
+// @import "skins/pages/login-3";
+// @import "skins/pages/login-4";
+@import "skins/pages/classic/login-1";
+// @import "skins/pages/classic/login-2";
+// @import "skins/pages/classic/login-3";
+// @import "skins/pages/classic/login-4";
+// @import "skins/pages/classic/login-5";
+// @import "skins/pages/classic/login-6";
+
+////////////////////////////////////////////////////////////////
+///////////// DO NOT MODIFY ABOVE INCLUDE ORDER ////////////////
+////////////////////////////////////////////////////////////////
